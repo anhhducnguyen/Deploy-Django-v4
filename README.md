@@ -37,27 +37,27 @@
   ```
 
 
-**Setep 1.** Tạo app trên `Heroku` tại [Heroku](https://dashboard.heroku.com/)
+**Step 1.** Tạo app trên `Heroku` tại [Heroku](https://dashboard.heroku.com/)
 
-**Setep 2.** Sử dụng `powershell` di chuyển đến thư mục bạn đang làm việc
+**Step 2.** Sử dụng `powershell` di chuyển đến thư mục bạn đang làm việc
   
   ```
    cd E:\2ndSemester3rdYear\applicationAnalysis\Myproject
   ```
 
-**Setep 3.** Đăng nhập `Heroku` bằng cách sử dụng câu lệnh sau trên `powershell`
+**Step 3.** Đăng nhập `Heroku` bằng cách sử dụng câu lệnh sau trên `powershell`
 
   ```
   heroku login
   ```
 
-**Setep 4.** Tạo kho lưu trữ
+**Step 4.** Tạo kho lưu trữ
 
 ```
 git init
 ```
 
-**Setep 5.** Kết nối với `chat-123` tên app mà bạn đã đặt trên `Heroku`
+**Step 5.** Kết nối với `chat-123` tên app mà bạn đã đặt trên `Heroku`
 
 ```
 heroku git:remote -a chat-123
@@ -76,7 +76,7 @@ git commit -m "commit"
 git push heroku master
 ```
 
-**Setep 6.** Nếu có lỗi hãy sử dụng sau đó `push` lại
+**Step 6.** Nếu có lỗi hãy sử dụng sau đó `push` lại
 
 ```
 heroku config:set DISABLE_COLLECTSTATIC=1
