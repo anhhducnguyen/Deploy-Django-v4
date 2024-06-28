@@ -7,17 +7,17 @@
 
 1. Đảm bảo `requirements.txt` chứa các thư viện sau
 
-```python
-Django==5.0.6
-django-heroku==0.3.1
-gunicorn==22.0.0
-```
+    ```python
+    Django==5.0.6
+    django-heroku==0.3.1
+    gunicorn==22.0.0
+    ```
 
 2. Đảm bảo `Procfile` có chứa đoạn mã sau, trong đó `myproject` là tên dự án lúc bạn tạo `django`
 
-```python
-web: gunicorn myproject.wsgi --log-file -
-```
+    ```python
+    web: gunicorn myproject.wsgi --log-file -
+    ```
 
 3. Đảm bảo `settings.py` có chứa
 
@@ -40,16 +40,16 @@ web: gunicorn myproject.wsgi --log-file -
 **Setep 1.** Tạo app trên `Heroku` tại [Heroku](https://dashboard.heroku.com/)
 
 **Setep 2.** Sử dụng `powershell` di chuyển đến thư mục bạn đang làm việc
-
-```
- cd E:\2ndSemester3rdYear\applicationAnalysis\Myproject
-```
+  
+  ```
+   cd E:\2ndSemester3rdYear\applicationAnalysis\Myproject
+  ```
 
 **Setep 3.** Đăng nhập `Heroku` bằng cách sử dụng câu lệnh sau trên `powershell`
 
-```
-heroku login
-```
+  ```
+  heroku login
+  ```
 
 **Setep 4.** Tạo kho lưu trữ
 
